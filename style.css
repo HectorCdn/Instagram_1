@@ -19,12 +19,14 @@ body {
 }
 
 .box1 {
-    gap: ;
+    gap: 0px 10px;
     display: flex;
     flex-direction: row;
 }
 
 .pp {
+    display: flex;
+    justify-content: flex-start;
     border-radius: 120px;
     height: 32px;
     width: 32px;
@@ -38,6 +40,9 @@ body {
     justify-content: center;
 }
 
-
-
+.image {
+    height: 100%;
+    width: 100%;
+    background: center /cover url('https://s3-alpha-sig.figma.com/img/e10d/563c/5c1442309bff8647f1c82eeb6612ba71?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QGpicp6kEBEOS~xOLf5ZbQt6Vz5MC4CQuWkZWLDu4bMH9wC-Q7yN81btkDBmYmcDJhaHueLFqo2kGtUSvBOmSA0EYNXK9DZlSUq~QcFaNoT3qV7SV6kt5d06rsbASojaclcloojwra76eUSVexCKnhx01xa9PW4NlZgw-TIWdGaKiyVn-S8cDhHdOhtRwsxTDodgscc1uFtx-9zOTjN7i064MBlRfZC5DqM8KEuOyIAlNPq3~E3hlM5oIKv3sO6W~4HmJ4tyU7~bBXs7N3hihQYXC94GnYse2tZeIs~TMwr4DxL1hNAl-s3b0sK2CDdMAHamc2wx4GmenPeIVtwZBg__');
+}
 
