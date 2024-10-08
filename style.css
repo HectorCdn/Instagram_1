@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    background-color: rgb(255, 188, 111);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 40%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.box1 {
+    gap: ;
+    display: flex;
+    flex-direction: row;
+}
+
+.pp {
+    border-radius: 120px;
+    height: 32px;
+    width: 32px;
+    background: center / cover url('https://s3-alpha-sig.figma.com/img/2e83/b0ba/a885bccb6718c74a08c579f6d969fd86?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=a-zZ8KGrdl6B9CBlxAVjun-VBSbxViTtALe46i6an2DKPP8Cs-1H8gq9r6IBRqMoYaAZLS3ZgsXLOoeH-oTH8MjnylG0mYy4GsCgZyUPCdsUazvhm9p~cLBnHTMfFTui9C6r~gyHiFKo8h4GMbJWfeNaK4vruQSYzpBWy6Zv2SsrHcxNwzwK~Wl6wyVHWyQkSLG5n-0JkT9ZuY26e7Vf8yOqQ3w-jjH~vUvM6UV6qq0A~tZnWIqu7S4iPmJWnFtfJQezyPEvNzCaXtYVfTqcsXZBe~a8vRvhHTBy1sQwLAKiu~3vUQmvnNHwX90Yk9vM25kXsEe2eP2Qr89kH-uqvw__');
+}
+
+.nom {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
